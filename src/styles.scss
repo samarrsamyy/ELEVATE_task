@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+:root {
+  --main-color: rgb(128, 127, 233);
+}
+
+.active {
+  background-color: var(--main-color);
+  color: #fff !important;
+  border-radius: 50px;
+}
+
+.nav-link {
+  transition: unset !important;
+}
+
+.product {
+  border-radius: 5px;
+  border: solid 1px #000;
+}
+
+
+.font-sm {
+  font-size: 14px;
+}
+
+.cr {
+  cursor: pointer;
+}
+
+.rating-color {
+  color: #f8c301;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.btn-main {
+  background-color: var(--main-color);
+  color: #fff ;
+  border: none;
+  transition: all 0.5;
+}
+
+.btn-main:hover {
+  box-shadow: 0 0 10px var(--main-color);
+
+}
